@@ -1,7 +1,9 @@
 import React from 'react'
 import ecomerce from '../assets/portfolio/ecomerce.jpg';
 import movie from '../assets/portfolio/movie.jpg';
-import spotifyclone from '../assets/portfolio/spotifyclone.jpg';
+import tushar from '../assets/portfolio/tushar.png'
+import giffy from '../assets/portfolio/giffy.png';
+import weathify from '../assets/portfolio/weathify.png';
 
 const Portfolio = () => {
 
@@ -14,16 +16,29 @@ const Portfolio = () => {
         },
         {
             id:2,
+            src:tushar,
+            href:'https://next-portfolio-blue-seven.vercel.app/',
+            link:'https://github.com/Deepakjuneja28/next-portfolio'
+        },
+        {
+            id:3,
             src:movie,
             href:'https://deepakjuneja28.github.io/Movie-overviewer/',
             link:'https://github.com/Deepakjuneja28/Movie-overviewer'
         },
         {
-            id:3,
-            src:spotifyclone,
-            href:'https://deepakjuneja28.github.io/music-player/',
-            link:'https://github.com/Deepakjuneja28/music-player'
-        }  
+            id:4,
+            src:giffy,
+            href:'https://giffy-genrator-git-main-deepakjuneja28.vercel.app/',
+            link:'https://github.com/Deepakjuneja28/giffy-genrator'
+        },
+        {
+            id:4,
+            src:weathify,
+            href:'https://shimmering-khapse-3c158e.netlify.app/',
+            link:'https://github.com/Deepakjuneja28/Weathify'
+        },
+         
     ]
 
 
@@ -33,7 +48,7 @@ const Portfolio = () => {
         <div className="max-w-screen-lg p-4c mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
-                <p className="py-6">Check out some of my work right here</p>
+                <p className="py-6">Check out some of our work right here</p>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             {
